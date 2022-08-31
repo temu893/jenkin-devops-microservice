@@ -35,7 +35,7 @@ post{
 	success{
 		echo 'I run when you are successful'
 	}
-	failere{
+	failure{
 		echo 'I run when you fail'
 	}
 }
