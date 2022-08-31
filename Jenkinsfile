@@ -9,6 +9,7 @@
 // 	echo "Inregration Test"
 
 // }
+pipeline{
 agent any
 stages{
 	stage('Build'){
@@ -26,4 +27,5 @@ stages{
 			echo "Integration Test"
 		}
 	}
+}
 }
