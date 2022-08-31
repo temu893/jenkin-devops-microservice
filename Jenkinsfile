@@ -28,4 +28,15 @@ stages{
 		}
 	}
 }
+post{
+	always{
+		echo 'Im awesone. I run always'
+	}
+	success{
+		echo 'I run when you are successful'
+	}
+	failere{
+		echo 'I run when you fail'
+	}
+}
 }
