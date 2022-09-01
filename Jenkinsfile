@@ -10,10 +10,17 @@
 
 // }
 pipeline{
-agent any
+//for any ahent 
+//**agent any
+
+//for node docker image
+agent{docker {image 'node:18.8.0'}}
+
 stages{
 	stage('Build'){
 		steps{
+			//sh 'node --version'
+			sh 'node --version'
 			echo "Build"
 		}
 	}
@@ -36,7 +43,7 @@ post{
 		echo 'I run when you are successful'
 	}
 	failure{
-		echo 'I run when you love me'
+		echo 'I run when you fail'
 	}
 }
 }
