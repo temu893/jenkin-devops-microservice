@@ -36,7 +36,7 @@ post{
 		echo 'I run when you are successful'
 	}
 	failure{
-		echo 'I run when you fail'
+		echo 'I run when you love me'
 	}
 }
 }
