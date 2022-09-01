@@ -14,7 +14,7 @@ pipeline{
 //**agent any
 
 //for node docker image
-agent{docker {image 'node:18.8.0'}}
+agent{ docker { image 'node:18.8'}}
 
 stages{
 	stage('Build'){
