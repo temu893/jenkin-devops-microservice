@@ -15,6 +15,7 @@ agent any
 
 //for node docker image
 //agent{ docker { image 'maven:3.6.3'}}
+//
 enviroment{
 	dockerHome = tool 'myDocker'
 	mavenHome = tool 'myMaven'
